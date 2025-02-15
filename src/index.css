@@ -1,0 +1,20 @@
+:root {
+  --coffee: #573D1C;
+  --goldenrod: #BF8D36;
+  --gold: #C8963E;
+  --yellow: #E3C567;
+  --flax: #E9D086;
+  --vanilla: #EFDEA9;
+  --floral-white: #FCF8EE;
+
+  --whitespace-least: 2px;
+  --whitespace-less: 4px;
+  --whitespace: 8px;
+  --whitespace-more: 16px;
+  --whitespace-most: 24px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}

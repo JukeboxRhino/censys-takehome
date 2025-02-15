@@ -1,0 +1,28 @@
+main.page {
+  align-items: center;
+  background-color: var(--floral-white);
+  color: var(--coffee);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: var(--whitespace-more);
+}
+
+button {
+  background-color: var(--gold);
+  border: 1px solid var(--coffee);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0 var(--whitespace);
+}
+
+button:hover {
+  background-color: var(--goldenrod);
+}

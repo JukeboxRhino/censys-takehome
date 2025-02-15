@@ -1,0 +1,17 @@
+.query-bar {
+  display: flex;
+}
+
+.query-bar input {
+  background: transparent;
+  border: 1px solid var(--coffee);
+  border-radius: var(--whitespace) 0 0 var(--whitespace);
+  box-shadow: var(--vanilla) 0 0 4px inset;
+  font-size: 16px;
+  padding: var(--whitespace);
+}
+
+.query-bar button {
+  border-left: none;
+  border-radius: 0 var(--whitespace) var(--whitespace) 0;
+}

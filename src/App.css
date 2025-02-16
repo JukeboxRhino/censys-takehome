@@ -1,28 +1,48 @@
 main.page {
   align-items: center;
   background-color: var(--floral-white);
+  box-sizing: border-box;
   color: var(--coffee);
   display: flex;
   flex-direction: column;
   height: 100vh;
+  padding: var(--whitespace-most);
 }
 
-main header {
+main>header {
   align-items: center;
   display: flex;
   flex-direction: column;
   padding: var(--whitespace-more);
 }
 
+main>header,
+main>section {
+  min-width: 350px;
+  max-width: 500px;
+}
+
+main section {
+  overflow: auto;
+}
+
 button {
   background-color: var(--gold);
   border: 1px solid var(--coffee);
   border-radius: 8px;
-  cursor: pointer;
   font-size: 12px;
-  padding: 0 var(--whitespace);
+  padding: var(--whitespace);
 }
 
-button:hover {
+button:disabled {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
   background-color: var(--goldenrod);
 }

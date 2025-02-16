@@ -1,5 +1,6 @@
 .query-bar {
   display: flex;
+  width: 100%;
 }
 
 .query-bar input {
@@ -7,6 +8,7 @@
   border: 1px solid var(--coffee);
   border-radius: var(--whitespace) 0 0 var(--whitespace);
   box-shadow: var(--vanilla) 0 0 4px inset;
+  flex-grow: 1;
   font-size: 16px;
   padding: var(--whitespace);
 }

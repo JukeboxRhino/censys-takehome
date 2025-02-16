@@ -1,0 +1,13 @@
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: var(--whitespace);
+}
+
+.results .nav-buttons {
+  display: flex;
+}
+
+.results .nav-buttons .next {
+  margin-left: auto;
+}

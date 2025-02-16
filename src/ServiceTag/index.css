@@ -1,0 +1,6 @@
+.service-tag {
+  background-color: var(--yellow);
+  border-radius: 4px;
+  font-size: 10px;
+  padding: var(--whitespace-less);
+}

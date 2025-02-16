@@ -1,0 +1,37 @@
+.host {
+  background-color: var(--vanilla);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--whitespace);
+  padding: var(--whitespace-more);
+}
+
+.host header {
+  display: flex;
+  gap: var(--whitespace);
+  white-space: nowrap;
+}
+
+.host .location {
+  margin-left: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.host .ip-address {
+  font-weight: bold;
+}
+
+.host .services {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: var(--whitespace);
+}
+
+.host .services .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--whitespace-less);
+}

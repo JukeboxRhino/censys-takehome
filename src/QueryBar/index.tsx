@@ -17,7 +17,7 @@ const QueryBar = ({ onSubmit }: QueryBarProps) => {
   }
   return (
     <div className='query-bar'>
-      <input onChange={inputHandler} onKeyUp={keyHandler} />
+      <input onChange={inputHandler} onKeyUp={keyHandler} role='searchbox' />
       <button onClick={() => onSubmit(query)}>Submit</button>
     </div>
   )

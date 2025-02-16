@@ -5,3 +5,4 @@
 - Run tests with `npm run test`
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/5bd75240-bbde-4b6f-bfe9-663d63464dae)

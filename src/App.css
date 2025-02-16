@@ -18,8 +18,8 @@ main>header {
 
 main>header,
 main>section {
-  min-width: 350px;
-  max-width: 500px;
+  min-width: min(350px, 100%);
+  max-width: min(500px, 100%);
 }
 
 main section {
